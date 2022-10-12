@@ -4,6 +4,7 @@
   "type": "module",
   "description": "Replication for a defect in @rollup/plugin-graphql ESM bundle",
   "main": "index.js",
+  "packageManager": "yarn@3.2.4",
   "repository": "git@github.com:jacekradko/rollup-plugin-graphql-esm.git",
   "author": "jacekradko@gmail.com",
   "license": "MIT",
@@ -16,5 +17,8 @@
   },
   "scripts": {
     "build": "rollup -c"
+  },
+  "resolutions": {
+    "@rollup/plugin-graphql@^2.0.0": "patch:@rollup/plugin-graphql@npm%3A2.0.0#./.yarn/patches/@rollup-plugin-graphql-npm-2.0.0-2bdcb0ddc0.patch"
   }
 }
