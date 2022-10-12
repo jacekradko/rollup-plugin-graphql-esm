@@ -1,6 +1,6 @@
 # rollup-plugin-graphql-esm
 
-Reproduction of an error with `@rollup/plugin-graphql` v2.0.0
+Reproduction of an error with `@rollup/plugin-graphql` v2.0.0 in a pure ESM project.
 
 ## Steps to reproduce
 
