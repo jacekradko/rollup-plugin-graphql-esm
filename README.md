@@ -5,8 +5,8 @@ Reproduction of an error with `@rollup/plugin-graphql` v2.0.0
 ## Steps to reproduce
 
 1. Clone this repo
-2. Run `yarn install`
-3. Run `yarn build`
+2. Run `npm install`
+3. Run `npm run build`
 
 ## Expected result
 
