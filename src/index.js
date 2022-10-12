@@ -1,1 +1,3 @@
-import query from "./query";
+import query from "./query.gql";
+
+console.log(query);
