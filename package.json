@@ -1,0 +1,17 @@
+{
+  "name": "rollup-plugin-graphql-esm",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Replication for a defect in @rollup/plugin-graphql ESM bundle",
+  "main": "index.js",
+  "repository": "git@github.com:jacekradko/rollup-plugin-graphql-esm.git",
+  "author": "jacekradko@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-graphql": "^2.0.0",
+    "rollup": "^3.1.0"
+  },
+  "scripts": {
+    "build": "rollup -c"
+  }
+}
