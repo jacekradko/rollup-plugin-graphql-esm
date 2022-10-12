@@ -1,0 +1,11 @@
+diff --git a/dist/es/index.js b/dist/es/index.js
+index 6195fc27c5040d0468aef119739a604029254d56..19325348ac2bd2a72b0c06527f2170125d33c582 100644
+--- a/dist/es/index.js
++++ b/dist/es/index.js
+@@ -1,5 +1,5 @@
+ import { createFilter } from '@rollup/pluginutils';
+-import loader from 'graphql-tag/loader';
++import loader from 'graphql-tag/loader.js';
+ import { EOL } from 'os';
+ 
+ /* eslint-disable import/prefer-default-export */
